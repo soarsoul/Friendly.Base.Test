@@ -55,9 +55,10 @@
     <Reference Include="Codeer.Friendly.Windows, Version=2.15.0.0, Culture=neutral, PublicKeyToken=532f270f1da385b3, processorArchitecture=MSIL">
       <HintPath>..\packages\Codeer.Friendly.Windows.2.15.0\lib\net20\Codeer.Friendly.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="Codeer.Friendly.Windows.Grasp.3.5">
-      <HintPath>..\..\..\..\FriendlyBaseTest-master\Test\packages\Codeer.Friendly.Windows.Grasp.2.12.0\lib\net35\Codeer.Friendly.Windows.Grasp.3.5.dll</HintPath>
+    <Reference Include="Codeer.Friendly.Windows.Grasp.2.0">
+      <HintPath>..\packages\Codeer.Friendly.Windows.Grasp.2.12.0\lib\net35\Codeer.Friendly.Windows.Grasp.2.0.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.3.12.0\lib\net35\nunit.framework.dll</HintPath>
     </Reference>
@@ -70,11 +71,30 @@
     <Compile Include="TargetPath.cs" />
     <Compile Include="TestAppVarInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestAsyncInterface.cs" />
+    <Compile Include="TestCommunicationWeak.cs" />
+    <Compile Include="TestDim.cs" />
+    <Compile Include="TestExpnadTarget.cs" />
+    <Compile Include="TestField.cs" />
+    <Compile Include="TestMethod.cs" />
+    <Compile Include="TestObjectCall.cs" />
+    <Compile Include="TestOperationTypeInfo.cs" />
+    <Compile Include="TestProperty.cs" />
+    <Compile Include="TestSerialize.cs" />
+    <Compile Include="TestTargetClrVerForecast.cs" />
+    <Compile Include="TestTargetClrVerFull.cs" />
+    <Compile Include="TestWindowControl.cs" />
+    <Compile Include="TestWindowsAppFriendAndExecuteContextInterface.cs" />
+    <Compile Include="TestWindowsAppFriendConnect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ExpandTestTarget\ExpandTestTarget.csproj">
+      <Project>{ab4ca831-c76d-4ca2-8dbb-4b3511fdcd13}</Project>
+      <Name>ExpandTestTarget</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FriendlyBaseTargetNet20\FriendlyBaseTargetNet20.csproj">
       <Project>{fda9e07f-15a7-4e78-8744-f278d142065c}</Project>
       <Name>FriendlyBaseTargetNet20</Name>

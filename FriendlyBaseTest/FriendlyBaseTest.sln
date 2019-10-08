@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendlyBaseTargetx64N20", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendlyBaseTargetx86N20", "FriendlyBaseTargetx86N20\FriendlyBaseTargetx86N20.csproj", "{283BA955-0E5A-4FC1-8F28-0DFA52BA6F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandTestTarget", "ExpandTestTarget\ExpandTestTarget.csproj", "{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,14 @@ Global
 		{283BA955-0E5A-4FC1-8F28-0DFA52BA6F20}.Release|Any CPU.ActiveCfg = Release|x86
 		{283BA955-0E5A-4FC1-8F28-0DFA52BA6F20}.Release|x86.ActiveCfg = Release|x86
 		{283BA955-0E5A-4FC1-8F28-0DFA52BA6F20}.Release|x86.Build.0 = Release|x86
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Debug|x86.Build.0 = Debug|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Release|x86.ActiveCfg = Release|Any CPU
+		{AB4CA831-C76D-4CA2-8DBB-4B3511FDCD13}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
